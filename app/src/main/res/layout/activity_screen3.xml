@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient1">
+
+    <TextView
+        android:id="@+id/text0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Your"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:textSize="56dp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/mm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text0"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="13dp"
+        android:text="Account"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="56dp" />
+
+    <TextView
+        android:id="@+id/bck"
+        android:layout_width="match_parent"
+        android:layout_height="565dp"
+        android:layout_below="@+id/mm"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/grad33" />
+
+    <TextView
+        android:id="@+id/gmil"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Fullname"
+        android:layout_marginLeft="40dp"
+        android:textColor="#BF0303"
+        android:layout_centerInParent="true"
+        android:textSize="18dp"
+        />
+    <EditText
+        android:id="@+id/ett"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gmil"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="40dp"
+        android:layout_centerInParent="true"
+        android:hint="kathey"
+        android:inputType="textEmailAddress"/>
+    <TextView
+        android:id="@+id/itvpass"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Phone or Gmail"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/ett"
+        android:textColor="#bf0303"
+        android:textSize="18dp"
+        android:layout_centerInParent="true"/>
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itvpass"
+        android:layout_marginTop="5dp"
+        android:layout_centerInParent="true"
+        android:hint="abc@gmail.com"
+        android:layout_marginLeft="40dp"/>
+    <TextView
+        android:id="@+id/itpass"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Password"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/etpass"
+        android:textColor="#bf0303"
+        android:textSize="18dp"
+        android:layout_centerInParent="true"/>
+    <EditText
+        android:id="@+id/epass"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itpass"
+        android:layout_marginTop="5dp"
+        android:layout_centerInParent="true"
+        android:hint="************"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:id="@+id/forgotpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/epass"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Forgot Password"
+        android:textColor="@color/black"
+        android:textSize="21dp"/>
+    <Button
+        android:id="@+id/signbttn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/epass"
+        android:textColor="#ffffff"
+        android:backgroundTint="#8C2A2A"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Sign In"/>
+    <TextView
+        android:id="@+id/signuppppp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Don't have account?Sign Up"
+        android:textSize="14sp"
+        android:textColor="@color/black"/>
+</RelativeLayout>
