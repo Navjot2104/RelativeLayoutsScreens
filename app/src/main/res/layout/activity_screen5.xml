@@ -78,7 +78,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/pssw"
         android:text="Remember Password"
-        android:textSize="18sp"
+        android:textSize="15sp"
         android:drawableStart="@drawable/outline_check_box_outline_blank_24"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="14dp"
@@ -89,11 +89,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/pssw"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="30dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginTop="10dp"
         android:text="Forgot Password"
         android:textColor="#D50000"
-        android:textSize="21dp"/>
+        android:textSize="15dp"/>
     <Button
         android:id="@+id/sup"
         android:layout_width="300dp"
@@ -140,6 +140,7 @@
         android:layout_height="107dp"
         android:layout_below="@id/ggl"
         android:layout_marginTop="101dp"
-        android:background="@drawable/grad22" />
+        android:background="@drawable/grad22"
+        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>
