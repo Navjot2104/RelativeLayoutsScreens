@@ -109,6 +109,7 @@
         android:layout_below="@id/signnn"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="30dp"
+        android:layout_marginBottom="23dp"
         android:background="@drawable/instagram"
         />
 
@@ -119,12 +120,15 @@
         android:layout_below="@id/signnn"
         android:layout_marginLeft="95dp"
         android:layout_marginTop="30dp"
+        android:layout_marginBottom="23dp"
+        android:layout_centerHorizontal="true"
         android:layout_toRightOf="@id/ggl"
         android:background="@drawable/twitter" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="167dp"
         android:layout_below="@id/ggl"
-        android:background="@drawable/grad22"/>
+        android:background="@drawable/grad22"
+        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>
